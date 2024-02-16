@@ -19,6 +19,7 @@ public class ExaminableManager : MonoBehaviour
 		{
 			if (Input.touchCount > 0)
 			{
+				print("Examining Object");
 				Touch touch = Input.GetTouch(0);
 				if (touch.phase == TouchPhase.Moved)
 				{
