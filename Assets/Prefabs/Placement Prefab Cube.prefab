@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 4324476090519979287}
   - component: {fileID: 4766077855060631056}
   - component: {fileID: 1377137525199346049}
+  - component: {fileID: 6615227485403455161}
   m_Layer: 0
   m_Name: Placement Prefab Cube
   m_TagString: Untagged
@@ -579,6 +580,19 @@ MonoBehaviour:
   m_ElasticRatioLimit: 0
   m_Sensitivity: 4
   m_Elasticity: 2
+--- !u!114 &6615227485403455161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022272940305751262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c784b9a20d1a487f8f76d280034c4ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  examinedScaleOffset: 1
 --- !u!1 &3661956535481999872
 GameObject:
   m_ObjectHideFlags: 0
