@@ -11,6 +11,7 @@ public class ExaminableManager : MonoBehaviour
 
 	private Examinable _currentExaminedObject;
 	private bool _isExamining;
+	public bool _canExamine;
 	[SerializeField] private float _rotateSpeed = 0.5f;
 
 	void Update()
@@ -30,7 +31,7 @@ public class ExaminableManager : MonoBehaviour
 	}
 
 	public void PerformExamine(Examinable examinable)
-	{
+    {
 		_currentExaminedObject = examinable;
 
 		//cache the examinable transform data so we can reset it
