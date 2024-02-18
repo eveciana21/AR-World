@@ -494,7 +494,8 @@ MonoBehaviour:
         m_MethodName: set_placementPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 310060806212033724, guid: cecb7dfa3d1064a5cbc5bbeb7ca97ae5,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7463,7 +7464,8 @@ MonoBehaviour:
         m_MethodName: set_placementPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 1157041955855436889, guid: 77344b5275ba14224907579feec9e099,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -10127,7 +10129,7 @@ GameObject:
   - component: {fileID: 2045334589}
   - component: {fileID: 2045334590}
   m_Layer: 5
-  m_Name: Creature Buttons
+  m_Name: Monster Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
