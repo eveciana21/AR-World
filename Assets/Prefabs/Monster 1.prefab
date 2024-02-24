@@ -1803,7 +1803,7 @@ MonoBehaviour:
   m_XROrigin: {fileID: 0}
   m_ExcludeUITouches: 1
   m_ARSessionOrigin: {fileID: 0}
-  m_SelectionVisualization: {fileID: 980580594510391810}
+  m_SelectionVisualization: {fileID: 0}
 --- !u!114 &5950108177264124803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2213,7 +2213,7 @@ PlayableDirector:
   m_PlayableAsset: {fileID: 11400000, guid: 8f8eb122ae5c241e1a079717c5cf5654, type: 2}
   m_InitialState: 1
   m_WrapMode: 1
-  m_DirectorUpdateMode: 1
+  m_DirectorUpdateMode: 2
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -950119605938865440, guid: 8f8eb122ae5c241e1a079717c5cf5654, type: 2}
