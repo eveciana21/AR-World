@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7281829826042587804}
   - component: {fileID: 2144421106040443466}
   - component: {fileID: 8498420909697083618}
+  - component: {fileID: 8051065532161201115}
   m_Layer: 0
   m_Name: P_FFE_Tent
   m_TagString: Untagged
@@ -105,124 +106,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0174559, y: 1.2329067, z: 1.990975}
   m_Center: {x: -0.048602484, y: 0.5055744, z: -0.01811929}
---- !u!1 &7111949260043219656
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8711252193943090697}
-  - component: {fileID: 3410754169575024072}
-  - component: {fileID: 8765928900725314919}
-  m_Layer: 0
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &8711252193943090697
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7111949260043219656}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.3655, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.10000001, z: 0.10000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4385401282726851147}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!108 &3410754169575024072
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7111949260043219656}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.985283, b: 0.8160377, a: 1}
-  m_Intensity: 4.49
-  m_Range: 0.42
-  m_SpotAngle: 67.320435
-  m_InnerSpotAngle: 28.902672
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 4153
-  m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!114 &8765928900725314919
+--- !u!114 &8051065532161201115
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7111949260043219656}
+  m_GameObject: {fileID: 3042073603187335352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c784b9a20d1a487f8f76d280034c4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
+  examinedScaleOffset: 0.5
+  _rotateSpeed: 0.5
 --- !u!1 &7869992508665159053
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,7 +133,6 @@ GameObject:
   - component: {fileID: 5233865829238449608}
   - component: {fileID: 2747054276842187623}
   - component: {fileID: 3924087057715803392}
-  - component: {fileID: 4315393559115833819}
   m_Layer: 0
   m_Name: Tent
   m_TagString: Untagged
@@ -257,7 +153,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8711252193943090697}
   - {fileID: 6725034208890295067}
   - {fileID: 5907966231326571242}
   m_Father: {fileID: 0}
@@ -313,7 +208,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8051065532161201115}
+        m_TargetAssemblyTypeName: Examinable, Assembly-CSharp
+        m_MethodName: SelectionUpdate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -699,19 +606,6 @@ MonoBehaviour:
   m_ElasticRatioLimit: 0
   m_Sensitivity: 3
   m_Elasticity: 1
---- !u!114 &4315393559115833819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7869992508665159053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c784b9a20d1a487f8f76d280034c4ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  examinedScaleOffset: 1
 --- !u!1 &8282798900823442353
 GameObject:
   m_ObjectHideFlags: 0

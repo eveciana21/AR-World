@@ -1,123 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &632506012432544441
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7593384522897871291}
-  - component: {fileID: 5392809702156479171}
-  - component: {fileID: 5724838101618785520}
-  m_Layer: 0
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &7593384522897871291
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632506012432544441}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.6141889, y: -0, z: -0, w: 0.78915906}
-  m_LocalPosition: {x: 0, y: 0.1666, z: -0.0335}
-  m_LocalScale: {x: 0.1, y: 0.10000001, z: 0.10000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 338707469741533053}
-  m_LocalEulerAnglesHint: {x: 75.786, y: 0, z: 0}
---- !u!108 &5392809702156479171
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632506012432544441}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.985283, b: 0.8160377, a: 1}
-  m_Intensity: 0.07
-  m_Range: 0.15
-  m_SpotAngle: 45.87798
-  m_InnerSpotAngle: 45.87798
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 4435
-  m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!114 &5724838101618785520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632506012432544441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
 --- !u!1 &1871642878044024168
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,6 +12,7 @@ GameObject:
   - component: {fileID: 7139987418124675805}
   - component: {fileID: 3970606429746051283}
   - component: {fileID: 7676131105075418526}
+  - component: {fileID: 2459146688927464749}
   m_Layer: 0
   m_Name: Mushroom
   m_TagString: Untagged
@@ -223,6 +106,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5765916, y: 0.7690876, z: 0.51200914}
   m_Center: {x: -0.0045384187, y: 0.2850714, z: -0.045455564}
+--- !u!114 &2459146688927464749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871642878044024168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c784b9a20d1a487f8f76d280034c4ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  examinedScaleOffset: 0.5
+  _rotateSpeed: 0.5
 --- !u!1 &1889945793265170808
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +238,6 @@ GameObject:
   - component: {fileID: 4608381413529552438}
   - component: {fileID: 1841779652026664943}
   - component: {fileID: 4966882379950167848}
-  - component: {fileID: 3057112078794528192}
   m_Layer: 0
   m_Name: Mushroom 1
   m_TagString: Untagged
@@ -362,7 +258,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7593384522897871291}
   - {fileID: 6321883559207874706}
   - {fileID: 7973437077860176350}
   m_Father: {fileID: 0}
@@ -418,7 +313,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2459146688927464749}
+        m_TargetAssemblyTypeName: Examinable, Assembly-CSharp
+        m_MethodName: SelectionUpdate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -804,16 +711,3 @@ MonoBehaviour:
   m_ElasticRatioLimit: 0
   m_Sensitivity: 3
   m_Elasticity: 1
---- !u!114 &3057112078794528192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3075610706304149889}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c784b9a20d1a487f8f76d280034c4ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  examinedScaleOffset: 1

@@ -171,7 +171,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 579373729877458846}
+        m_TargetAssemblyTypeName: Examinable, Assembly-CSharp
+        m_MethodName: SelectionUpdate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -569,6 +581,7 @@ GameObject:
   - component: {fileID: 8216972951027802681}
   - component: {fileID: 3021334546240791499}
   - component: {fileID: 3357547848707131578}
+  - component: {fileID: 579373729877458846}
   m_Layer: 0
   m_Name: P_FFE_Bridge
   m_TagString: Untagged
@@ -662,3 +675,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.9899077, y: 0.800772, z: 2.4196498}
   m_Center: {x: -0.013947301, y: -0.08088336, z: 0.064740516}
+--- !u!114 &579373729877458846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7479901226056939836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c784b9a20d1a487f8f76d280034c4ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  examinedScaleOffset: 0.5
+  _rotateSpeed: 0.5

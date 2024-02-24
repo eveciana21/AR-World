@@ -1034,6 +1034,7 @@ GameObject:
   - component: {fileID: 6011819686951627}
   - component: {fileID: 6011819675347903}
   - component: {fileID: 243178406377173566}
+  - component: {fileID: 3337851806238425422}
   m_Layer: 0
   m_Name: Monster_48
   m_TagString: Untagged
@@ -1164,6 +1165,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5427043, y: 2.0075727, z: 0.50704616}
   m_Center: {x: -0.0012390581, y: 0.9981246, z: 0.017098071}
+--- !u!114 &3337851806238425422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011819686848235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c784b9a20d1a487f8f76d280034c4ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  examinedScaleOffset: 0.5
+  _rotateSpeed: 0.5
 --- !u!1 &6011819686848237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,8 +1687,6 @@ GameObject:
   - component: {fileID: 5950108177264124803}
   - component: {fileID: 4576787234091172424}
   - component: {fileID: 6803631591667736343}
-  - component: {fileID: 3782311470819685051}
-  - component: {fileID: 4913229357459173412}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -1748,7 +1761,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3337851806238425422}
+        m_TargetAssemblyTypeName: Examinable, Assembly-CSharp
+        m_MethodName: SelectionUpdate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -2134,40 +2159,6 @@ MonoBehaviour:
   m_ElasticRatioLimit: 0
   m_Sensitivity: 2
   m_Elasticity: 1
---- !u!114 &3782311470819685051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3926965990771754584}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c784b9a20d1a487f8f76d280034c4ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  examinedScaleOffset: 1
---- !u!95 &4913229357459173412
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3926965990771754584}
-  m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: 196b5cab3177c3b4aaef188e2b82e166, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7876288823370773824
 GameObject:
   m_ObjectHideFlags: 0
