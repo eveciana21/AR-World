@@ -72,7 +72,7 @@ SkinnedMeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548987320424743016}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -2316,7 +2316,6 @@ GameObject:
   - component: {fileID: 3745475590335065422}
   - component: {fileID: 3745475590321765868}
   - component: {fileID: 5517277344287806998}
-  - component: {fileID: 8795780090727159193}
   m_Layer: 0
   m_Name: Monster_051
   m_TagString: Untagged
@@ -2347,7 +2346,7 @@ SkinnedMeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3745475590335426926}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -2465,20 +2464,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.63827115, y: 1.5161442, z: 0.35777175}
   m_Center: {x: 0.01051072, y: 0.9461949, z: 0.0075487797}
---- !u!114 &8795780090727159193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3745475590335426926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c784b9a20d1a487f8f76d280034c4ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  examinedScaleOffset: 0.5
-  _rotateSpeed: 0.5
 --- !u!1 &7112560750872161095
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,19 +2604,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8795780090727159193}
-        m_TargetAssemblyTypeName: Examinable, Assembly-CSharp
-        m_MethodName: SelectionUpdate
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -2686,7 +2659,7 @@ MonoBehaviour:
   m_XROrigin: {fileID: 0}
   m_ExcludeUITouches: 1
   m_ARSessionOrigin: {fileID: 0}
-  m_SelectionVisualization: {fileID: 0}
+  m_SelectionVisualization: {fileID: 1548987320424743016}
 --- !u!114 &8810796245955213695
 MonoBehaviour:
   m_ObjectHideFlags: 0
