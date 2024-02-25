@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/2 - AR Driveway.unity
+    guid: d1885d92d93964a1aa98f7ea766e8822
+  - enabled: 1
     path: Assets/Scenes/1 - AR Desktop.unity
     guid: 176e8f4f885de4e08a749b79cd437970
   m_configObjects:
