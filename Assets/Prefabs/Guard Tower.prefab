@@ -527,8 +527,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2555876467185391515}
   - {fileID: 7648744989692645897}
@@ -539,6 +539,7 @@ Transform:
   - {fileID: 5126646878048544000}
   - {fileID: 2276633931493824876}
   - {fileID: 5330951476243429945}
+  - {fileID: 2773463868006211903}
   m_Father: {fileID: 19058666327358353}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8458242609064057104
@@ -811,7 +812,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9122763784137670103}
-  - {fileID: 2773463868006211903}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4119918461929186334
@@ -1256,7 +1256,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9133699883838574666}
-  m_Father: {fileID: 19058666327358353}
+  m_Father: {fileID: 9122763784137670103}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2953969041132941247
 MeshFilter:

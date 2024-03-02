@@ -17,9 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2 - AR Driveway.unity
     guid: d1885d92d93964a1aa98f7ea766e8822
-  - enabled: 1
-    path: Assets/Scenes/2 - Driveway AR.unity
-    guid: ec97692b3c58248a9bb5bd63fc95446c
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: c61463109a2f5414886b9b6cd28542b1,
       type: 2}
